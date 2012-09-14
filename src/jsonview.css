@@ -1,0 +1,23 @@
+.jsonview {text-align:left; position: absolute; left: 50%; background: #fff; width: 1000px; margin-left: -500px; overflow: auto;}
+.jsonview TABLE { border-collapse:collapse; border: solid 1px #ccc; clear: left; }
+.jsonview TH { text-align: left; padding: 4px 8px; text-shadow: #fff 1px 1px -1px; background: #f1f1f1; white-space:nowrap; cursor:pointer; font-weight: bold; }
+.jsonview TH, .jsonview TD, .jsonview TD DT, .jsonview TD DD { font-size: 13px; font-family: Arial; }
+.jsonview TD { padding: 8px 8px 0 8px; vertical-align: top; }
+.jsonview DL { clear: left; }
+.jsonview DT { margin: 10px 0 5px 0; font: bold 18px Helvetica, Verdana, Arial; width: 200px; clear: left; float: left; display:block; white-space:nowrap; }
+.jsonview DD { margin: 5px 10px; font: 18px Arial; padding: 2px; display: block; float: left; }
+.jsonview DL DL DT { font: bold 16px Arial; }
+.jsonview DL DL DD { font: 16px Arial; }
+.jsonview HR { display:none; }
+.jsonview TD DL HR { display:block; padding: 0; clear: left; border: none; }
+.jsonview TD DL { padding: 4px; margin: 0; height:100%; max-width: 700px; }
+.jsonview DL TD DL DT { padding: 2px; margin: 0 10px 0 0; font-weight: bold; font-size: 13px; width: 120px; overflow: hidden; clear: left; float: left; display:block; }
+.jsonview DL TD DL DD { margin: 0; padding: 2px; font-size: 13px; display: block; float: left; }
+.jsonview TBODY>TR:last-child>TD { padding: 8px; }
+.jsonview THEAD { -webkit-user-select:none; -moz-user-select:none; }
+.jsonview .desc, .jsonview .asc { background-color: #FAFAD2; }
+.jsonview .desc { background-color: #D4EDC9; }
+.jsonview TH B { display:block; float:right; margin: 0 0 0 5px; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #ccc; border-bottom: none; }
+.jsonview .asc B { border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #333; border-bottom: none; }
+.jsonview .desc B { border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 5px solid #333; border-top: none; }
+.jsonview H3 { font-size: 18px; margin: 0 0 10px 0; }
